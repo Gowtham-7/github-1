@@ -75,7 +75,7 @@ Lcd_data(unsigned char x,unsigned char y)
 	en=1;
 
 	/*call delay to generate a pulse to Enable pin of LCD*/
-	delay(500);
+	delay(200);
 
 	/*Set Enable pin of LCD to low*/
 	en=0;
@@ -94,7 +94,7 @@ Lcd_data(unsigned char x,unsigned char y)
 	en=1;
 
 	/*call delay to generate a pulse to Enable pin of LCD*/
-	delay(500);
+	delay(200);
 
 	/*Set Enable pin of LCD to low*/
 	en=0;	
